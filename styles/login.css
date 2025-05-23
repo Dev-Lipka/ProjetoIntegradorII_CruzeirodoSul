@@ -1,0 +1,68 @@
+body {
+  background-color: #009cde;
+}
+.login {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 30px;
+}
+.login h3 {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+}
+form {
+  margin-top: 40px;
+  border: solid 2px #000;
+  border-radius: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 70px;
+  background-color: white;
+  padding: 40px;
+}
+form h4 {
+  color: #13234a;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  margin-bottom: 10px;
+}
+.user,
+.password label {
+  color: #009cde;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 26px;
+}
+.user input {
+  padding-bottom: 1px;
+  padding-top: 10px;
+  border: solid 1px #009cde;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.password input {
+  padding-bottom: 1px;
+  padding-top: 10px;
+  margin: 5px 0;
+  border: solid 1px #009cde;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 24px;
+}
+button {
+  background-color: #13234a;
+  width: 150px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+}
+button:active {
+  opacity: 0.5;
+}
