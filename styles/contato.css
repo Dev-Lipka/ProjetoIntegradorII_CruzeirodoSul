@@ -1,0 +1,96 @@
+body {
+  background-image: url(../img/background.png);
+  background-size: 35%;
+  background-position: center;
+}
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contato h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  transition: ease-in-out 0.5s;
+  color: #2e2929;
+  background-color: white;
+}
+form {
+  margin-top: 40px;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 242, 0.8);
+}
+.name input {
+  width: 400px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 9px;
+  border: solid 1px #5f5e5e;
+}
+.email {
+  margin-top: 10px;
+}
+.email input {
+  width: 485px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 9px;
+  border: solid 1px #5f5e5e;
+}
+.phone {
+  margin-top: 10px;
+}
+.phone input {
+  width: 464px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 9px;
+  border: solid 1px #5f5e5e;
+}
+.mensage {
+  margin-top: 10px;
+  text-align: center;
+}
+.mensage textarea {
+  width: 538px;
+  height: 80px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 9px;
+  border: solid 1px #5f5e5e;
+}
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.buttons input {
+  width: 150px;
+  padding: 9px;
+  border-radius: 10px;
+  border: none;
+  font-size: medium;
+}
+#enviar {
+  background-color: #13234a;
+  color: white;
+  margin-right: 10px;
+}
+#enviar:active {
+  opacity: 0.8;
+}
+#resetar {
+  background-color: #009cde;
+  color: white;
+}
+#resetar:active {
+  opacity: 0.8;
+}

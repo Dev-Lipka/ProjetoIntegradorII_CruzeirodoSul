@@ -1,0 +1,32 @@
+body {
+  background-image: url(../img/cardapio.png);
+  background-size: 23%;
+}
+.menu h3 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20px;
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+  text-shadow: 1px 0px 2px #000000;
+  transition: ease-in-out 0.3s;
+}
+.sabores {
+  margin-top: 20px;
+}
+.sabores {
+  text-align: center;
+}
+.sabores img {
+  width: 350px;
+  height: 200px;
+}
+.pizza {
+  display: inline-block;
+  margin-right: 10px;
+  border: solid 2px #000;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}

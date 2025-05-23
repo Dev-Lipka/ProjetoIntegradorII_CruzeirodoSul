@@ -1,0 +1,202 @@
+/*resetar todos os estilos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/index.png);
+  background-size: 21%;
+}
+/* header */
+header {
+  background-color: #13234a;
+}
+header img {
+  margin-left: 30px;
+}
+header nav {
+  float: right;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+header ul {
+  display: inline-flex;
+  list-style: none;
+}
+header ul li {
+  margin-right: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+header ul li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+/*Imagem de Bem vindo*/
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-principal {
+  width: 80%;
+  height: 600px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.home h3 {
+  position: absolute;
+  margin-top: 260px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  transition: 0.5s;
+}
+/*Sobre nós*/
+.sobre {
+  margin-top: 100px;
+}
+.sobre h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  transition: ease-in-out 0.5s;
+  color: #2e2929;
+}
+.sobre-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre-container p {
+  width: 30%;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+  font-style: italic;
+  color: #333;
+}
+.sobre-container img {
+  width: 50%;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-left: 50px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+/*Horario*/
+.funcionamento {
+  margin-top: 100px;
+}
+.funcionamento h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  transition: ease-in-out 0.5s;
+  color: #2e2929;
+}
+.horarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.horarios img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.horarios-container {
+  margin-left: 50px;
+  font-size: 30px;
+  font-style: italic;
+  color: #2e2929;
+  font-family: cursive;
+  text-align: center;
+}
+/*Atalhos e Informações... cor azul calro #009CDE azul escuro #13234a*/
+.links {
+  display: flex;
+  justify-content: center;
+  background-color: #13234a;
+  color: white;
+  margin-top: 55px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.links h3 {
+  text-transform: uppercase;
+}
+.dados {
+  margin-right: 55px;
+}
+.dados div {
+  margin-top: 15px;
+}
+.atalhos {
+  margin-right: 55px;
+}
+.atalhos ul {
+  list-style: none;
+  margin-top: 15px;
+}
+.atalhos ul li {
+  margin-top: 5px;
+  text-align: center;
+}
+.atalhos ul li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+.payment {
+  margin-right: 55px;
+}
+.payment div {
+  margin-top: 15px;
+}
+.payment img {
+  width: 100px;
+  height: 100px;
+}
+.mapa div {
+  margin-top: 15px;
+}
+.mapa iframe {
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+}
+/*Footer*/
+footer {
+  background-color: #009cde;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+}
+footer span {
+  font-style: italic;
+  color: yellow;
+  font-size: 17px;
+}

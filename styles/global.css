@@ -1,0 +1,108 @@
+/*resetar todos os estilos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+/* header */
+header {
+  background-color: #13234a;
+}
+header img {
+  margin-left: 30px;
+}
+header nav {
+  float: right;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+header ul {
+  display: inline-flex;
+  list-style: none;
+}
+header ul li {
+  margin-right: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+header ul li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+/*Atalhos e Informações... cor azul calro #009CDE azul escuro #13234a*/
+.links {
+  display: flex;
+  justify-content: center;
+  background-color: #13234a;
+  color: white;
+  margin-top: 55px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.links h3 {
+  text-transform: uppercase;
+}
+.dados {
+  margin-right: 55px;
+}
+.dados div {
+  margin-top: 15px;
+}
+.atalhos {
+  margin-right: 55px;
+}
+.atalhos ul {
+  list-style: none;
+  margin-top: 15px;
+}
+.atalhos ul li {
+  margin-top: 5px;
+  text-align: center;
+}
+.atalhos ul li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+.payment {
+  margin-right: 55px;
+}
+.payment div {
+  margin-top: 15px;
+}
+.payment img {
+  width: 100px;
+  height: 90px;
+}
+.mapa div {
+  margin-top: 15px;
+}
+.mapa iframe {
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+}
+/*Footer*/
+footer {
+  background-color: #009cde;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+}
+footer span {
+  font-style: italic;
+  color: yellow;
+  font-size: 17px;
+}

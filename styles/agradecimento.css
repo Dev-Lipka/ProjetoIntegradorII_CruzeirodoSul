@@ -1,0 +1,47 @@
+.agradecimento {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 164px;
+}
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 25px;
+}
+.container h3 {
+  margin-bottom: 18px;
+  color: #2e2929;
+  transition: ease-in-out 0.5s;
+}
+.button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button button {
+  width: 270px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  text-shadow: 0 0 5px #000;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+}
+#home {
+  background-color: #13234a;
+  margin-right: 10px;
+}
+#home:active {
+  opacity: 0.8;
+}
+#menu {
+  background-color: #009cde;
+}
+#menu:active {
+  opacity: 0.8;
+}
